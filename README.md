@@ -5,6 +5,17 @@
 </p>
 
 <p align="center">
+  <a href="https://employee-salary-prediction-ml-ygpifb5lxz5k9hc3okb3rl.streamlit.app/" target="_blank">
+    <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Open in Streamlit">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://employee-salary-prediction-ml-ygpifb5lxz5k9hc3okb3rl.streamlit.app/"><img src="https://img.shields.io/badge/🚀%20Live%20Demo-Streamlit-red?style=for-the-badge"></a>
+  <a href="https://github.com/mayurmali-01/Employee-Salary-Prediction-ML"><img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github"></a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python">
   <img src="https://img.shields.io/badge/Scikit--Learn-ML-orange?style=for-the-badge&logo=scikitlearn">
   <img src="https://img.shields.io/badge/XGBoost-Regressor-green?style=for-the-badge">
@@ -14,15 +25,33 @@
 
 ---
 
+# 🚀 Live Demo
+
+### 🌐 Try the Web Application
+
+👉 **https://employee-salary-prediction-ml-ygpifb5lxz5k9hc3okb3rl.streamlit.app/**
+
+---
+
 # 📌 Project Overview
 
-Employee Salary Prediction is an end-to-end Machine Learning project that predicts an employee's salary based on professional and educational attributes. The project covers the complete machine learning workflow, including data preprocessing, exploratory data analysis, feature engineering, model training, hyperparameter tuning, model evaluation, and deployment through an interactive Streamlit web application.
+Employee Salary Prediction is an end-to-end Machine Learning project that predicts an employee's salary based on professional and educational attributes.
+
+This project covers the complete Machine Learning workflow including:
+
+- Data Preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Model Building
+- Hyperparameter Tuning
+- Model Evaluation
+- Streamlit Web Application Deployment
 
 ---
 
 # 🎯 Problem Statement
 
-Develop a regression model capable of predicting employee salaries using the following features:
+Develop a Machine Learning regression model capable of predicting employee salaries using:
 
 - Job Type
 - Degree
@@ -35,7 +64,7 @@ Develop a regression model capable of predicting employee salaries using the fol
 
 # 📂 Dataset
 
-The dataset contains employee information such as:
+The dataset contains employee information including:
 
 - Job Type
 - Degree
@@ -47,35 +76,39 @@ The dataset contains employee information such as:
 
 ---
 
-# 🛠️ Technologies Used
+# 🛠 Technologies Used
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- Scikit-learn
+- Scikit-Learn
 - XGBoost
 - Joblib
 - Streamlit
 
 ---
 
-# 🔄 Project Workflow
+# 🔄 Machine Learning Workflow
 
 ## 📌 Data Preprocessing
 
-- Loaded and explored the dataset
+- Imported dataset
 - Checked missing values
 - Removed duplicate records
 - Verified data consistency
 
+---
+
 ## 📊 Exploratory Data Analysis (EDA)
 
-- Salary distribution analysis
-- Correlation analysis
-- Feature relationship analysis
-- Outlier detection
+- Salary Distribution
+- Correlation Analysis
+- Feature Relationship Analysis
+- Outlier Detection
+
+---
 
 ## ⚙️ Feature Engineering
 
@@ -83,9 +116,11 @@ The dataset contains employee information such as:
 - Feature Scaling using MinMaxScaler
 - Train-Test Split
 
+---
+
 ## 🤖 Model Building
 
-The following regression models were evaluated:
+The following regression algorithms were evaluated:
 
 - Linear Regression
 - Random Forest Regressor
@@ -93,33 +128,42 @@ The following regression models were evaluated:
 
 The best-performing model was selected based on evaluation metrics.
 
+---
+
 ## 🎯 Hyperparameter Tuning
 
-Optimized the model using hyperparameter tuning to improve prediction performance.
+Optimized model performance using hyperparameter tuning.
+
+---
 
 ## 📈 Model Evaluation
 
-Performance was evaluated using:
+Evaluation Metrics:
 
 - R² Score
 - Mean Absolute Error (MAE)
 - Mean Squared Error (MSE)
 - Root Mean Squared Error (RMSE)
 
+---
+
 ## 🌐 Model Deployment
 
-The trained model was saved using Joblib and deployed as an interactive Streamlit web application for real-time salary prediction.
+The trained model was saved using Joblib and deployed as an interactive Streamlit web application.
 
 ---
 
 # 🚀 Streamlit Web Application
 
-The web application allows users to:
+### Features
 
-- Predict employee salary instantly
-- Enter employee information using an intuitive interface
-- Receive real-time salary predictions
-- Experience a clean and interactive dashboard
+✅ Interactive User Interface
+
+✅ Instant Salary Prediction
+
+✅ Real-Time Prediction
+
+✅ Responsive Web Application
 
 ---
 
@@ -128,7 +172,7 @@ The web application allows users to:
 ## 🏠 Home Page
 
 <p align="center">
-  <img src="Images/prediction_example_1.png" alt="Home Page" width="900">
+<img src="Images/prediction_example_1.png" width="900">
 </p>
 
 ---
@@ -136,7 +180,7 @@ The web application allows users to:
 ## 💰 Prediction Example
 
 <p align="center">
-  <img src="Images/prediction_example_2.png" alt="Prediction Example" width="900">
+<img src="Images/prediction_example_2.png" width="900">
 </p>
 
 ---
@@ -169,25 +213,25 @@ Employee-Salary-Prediction-ML/
 
 # ⚙️ Installation
 
-### Clone the repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/mayurmali-01/Employee-Salary-Prediction-ML.git
 ```
 
-### Navigate to the project folder
+## Move into Project Folder
 
 ```bash
 cd Employee-Salary-Prediction-ML
 ```
 
-### Install the required packages
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run the Streamlit application
+## Run Streamlit
 
 ```bash
 streamlit run app.py
@@ -195,13 +239,13 @@ streamlit run app.py
 
 ---
 
-# 📌 Future Improvements
+# 🎯 Future Improvements
 
-- Batch prediction using CSV upload
-- Explain predictions using SHAP
-- Docker deployment
-- Cloud deployment using AWS or Azure
-- REST API integration
+- Batch Prediction using CSV Upload
+- Explainability using SHAP
+- Docker Containerization
+- AWS / Azure Deployment
+- REST API Integration
 
 ---
 
@@ -211,9 +255,20 @@ streamlit run app.py
 
 **Artificial Intelligence & Data Science Engineer**
 
-- **GitHub:** https://github.com/mayurmali-01
-- **LinkedIn:** https://www.linkedin.com/in/mayurmali01/
+📧 Email: 9032mayurbaviskar@gmail.com
+
+🔗 LinkedIn:
+https://www.linkedin.com/in/mayurmali01/
+
+💻 GitHub:
+https://github.com/mayurmali-01
 
 ---
 
-## ⭐ If you found this project useful, consider giving it a Star!
+## ⭐ If you found this project helpful, please consider giving it a Star!
+
+### 🌐 Live Application
+
+https://employee-salary-prediction-ml-ygpifb5lxz5k9hc3okb3rl.streamlit.app/
+
+⭐ Star this repository if you found it useful!
