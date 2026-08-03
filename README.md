@@ -1,7 +1,7 @@
 # 💼 Employee Salary Prediction using Machine Learning
 
 <p align="center">
-  <img src="images/prediction_example_1.png" alt="Employee Salary Prediction" width="900">
+  <img src="Images/prediction_example_1.png" alt="Employee Salary Prediction" width="900">
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 # 📌 Project Overview
 
-Employee Salary Prediction is an end-to-end Machine Learning project that predicts an employee's salary based on professional and educational attributes. The project covers the complete ML workflow, including data preprocessing, exploratory data analysis, feature engineering, model training, hyperparameter tuning, evaluation, and deployment through an interactive Streamlit web application.
+Employee Salary Prediction is an end-to-end Machine Learning project that predicts an employee's salary based on professional and educational attributes. The project covers the complete machine learning workflow, including data preprocessing, exploratory data analysis, feature engineering, model training, hyperparameter tuning, model evaluation, and deployment through an interactive Streamlit web application.
 
 ---
 
@@ -63,41 +63,41 @@ The dataset contains employee information such as:
 
 # 🔄 Project Workflow
 
-### 📌 Data Preprocessing
+## 📌 Data Preprocessing
 
 - Loaded and explored the dataset
 - Checked missing values
 - Removed duplicate records
 - Verified data consistency
 
-### 📊 Exploratory Data Analysis (EDA)
+## 📊 Exploratory Data Analysis (EDA)
 
 - Salary distribution analysis
 - Correlation analysis
 - Feature relationship analysis
 - Outlier detection
 
-### ⚙️ Feature Engineering
+## ⚙️ Feature Engineering
 
 - One-Hot Encoding
 - Feature Scaling using MinMaxScaler
 - Train-Test Split
 
-### 🤖 Model Building
+## 🤖 Model Building
 
-The following regression models were explored:
+The following regression models were evaluated:
 
 - Linear Regression
 - Random Forest Regressor
 - XGBoost Regressor
 
-The best-performing model was selected after evaluation.
+The best-performing model was selected based on evaluation metrics.
 
-### 🎯 Hyperparameter Tuning
+## 🎯 Hyperparameter Tuning
 
 Optimized the model using hyperparameter tuning to improve prediction performance.
 
-### 📈 Model Evaluation
+## 📈 Model Evaluation
 
 Performance was evaluated using:
 
@@ -106,7 +106,7 @@ Performance was evaluated using:
 - Mean Squared Error (MSE)
 - Root Mean Squared Error (RMSE)
 
-### 🌐 Model Deployment
+## 🌐 Model Deployment
 
 The trained model was saved using Joblib and deployed as an interactive Streamlit web application for real-time salary prediction.
 
@@ -116,10 +116,10 @@ The trained model was saved using Joblib and deployed as an interactive Streamli
 
 The web application allows users to:
 
-- Enter employee information
-- Predict salary instantly
-- Use an intuitive and interactive interface
-- Get real-time salary predictions
+- Predict employee salary instantly
+- Enter employee information using an intuitive interface
+- Receive real-time salary predictions
+- Experience a clean and interactive dashboard
 
 ---
 
@@ -128,7 +128,7 @@ The web application allows users to:
 ## 🏠 Home Page
 
 <p align="center">
-  <img src="images/prediction_example_1.png" width="900">
+  <img src="Images/prediction_example_1.png" alt="Home Page" width="900">
 </p>
 
 ---
@@ -136,7 +136,7 @@ The web application allows users to:
 ## 💰 Prediction Example
 
 <p align="center">
-  <img src="images/prediction_example_2.png" width="900">
+  <img src="Images/prediction_example_2.png" alt="Prediction Example" width="900">
 </p>
 
 ---
@@ -160,7 +160,7 @@ Employee-Salary-Prediction-ML/
 │   ├── train_salaries.csv
 │   └── test_features.csv
 │
-└── images/
+└── Images/
     ├── prediction_example_1.png
     └── prediction_example_2.png
 ```
@@ -200,16 +200,16 @@ streamlit run app.py
 - Batch prediction using CSV upload
 - Explain predictions using SHAP
 - Docker deployment
-- Cloud deployment (AWS/Azure)
+- Cloud deployment using AWS or Azure
 - REST API integration
 
 ---
 
 # 👨‍💻 Author
 
-### **Mayur Sandip Mali**
+## Mayur Sandip Mali
 
-Artificial Intelligence & Data Science Engineer
+**Artificial Intelligence & Data Science Engineer**
 
 - **GitHub:** https://github.com/mayurmali-01
 - **LinkedIn:** https://www.linkedin.com/in/mayurmali01/
